@@ -7,7 +7,7 @@
 
  #include "sudoku.h"
 
-ft_check_sudoku(square ***loc)
+void ft_check_sudoku(square ***loc)
 {
     int i;
     int j;

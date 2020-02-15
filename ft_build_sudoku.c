@@ -2,7 +2,7 @@
  * @Author: nniinima
  * @Date:   2020-02-15T22:58:41+02:00
  * @Last modified by:   nniinima
- * @Last modified time: 2020-02-15T23:11:37+02:00
+ * @Last modified time: 2020-02-15T23:52:07+02:00
  */
 
 #include "sudoku.h"
@@ -44,11 +44,14 @@ square ***ft_build_sudoku (int **sudoku)
         while (j < global_size_columns)
         {
             if (loc[i][j] -> num != 0)
-            sudoku[i][j] -> solvable = 0;
-            ft_update_sudoku(loc, i, j)
+            loc[i][j] -> solvable = 0;
+            ft_update_sudoku(loc, i, j);
             global_unsolved--;
             j++;
         }
         i++;
     }
+
+    return (loc);
+
 }

@@ -2,7 +2,7 @@
  * @Author: nniinima
  * @Date:   2020-02-15T19:57:37+02:00
  * @Last modified by:   nniinima
- * @Last modified time: 2020-02-15T22:24:03+02:00
+ * @Last modified time: 2020-02-15T23:40:22+02:00
  */
 
 #include "sudoku.h"
@@ -22,7 +22,7 @@ int main()
 
     ft_build_sudoku(sudoku);
 
-    ft_check_sudoku(sudoku);
+    ft_check_sudoku(loc);
 
     return (0);
 }

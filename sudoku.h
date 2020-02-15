@@ -2,7 +2,7 @@
  * @Author: nniinima
  * @Date:   2020-02-15T20:01:55+02:00
  * @Last modified by:   nniinima
- * @Last modified time: 2020-02-15T22:33:48+02:00
+ * @Last modified time: 2020-02-16T00:04:15+02:00
  */
 
 #ifndef SUDOKU_H
@@ -35,6 +35,5 @@ typedef struct square
 int     **ft_create_sudoku();
 void    ft_print_sudoku();
 square  ***ft_build_sudoku (int**);
-int     ft_update_sudoku(***square, int, int);
 
 #endif
